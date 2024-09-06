@@ -1,108 +1,187 @@
-* {
+body {
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #fff;
     padding: 20px;
-    text-align: center;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
 }
 
-.about-us-link {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 1em;
-    color: black;
+.nav-link {
     text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 2px;
+}
+
+.banner-container {
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+    background-color: #fff;
 }
 
 .banner {
-    background-color: #f0f0f0;
-    width: 100%;
-    overflow: hidden;
-    padding: 10px 0;
-    margin-top: 10px;
-    position: relative;
-}
-
-.scrolling-text {
     white-space: nowrap;
-    font-size: 1.5em;
-    animation: scroll 10s linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-.circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: #4077f0;
-    color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1em;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.banner-content {
+    white-space: nowrap;
+    display: inline-block;
+    animation: move-left 10s linear infinite;
+    font-size: 72px;
+    color: #f0f0f0;
+}
+
+@keyframes move-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.circle-image {
     position: absolute;
-    right: 10px;
-    top: 150px;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 10;
 }
 
-.main-content {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.left-column {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.image-box {
-    width: 300px;
+.content-image {
+    width: 200px;
     height: 100px;
-    background-color: #4077f0;
-    color: white;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.tagline {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    font-style: italic;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Hotel of Consciousness page styles */
+.hotel-page {
+    background-color: #000;
+    color: #fff;
+}
+
+.hotel-page header {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.hotel-page h1, .hotel-page .nav-link {
+    color: #fff;
+}
+
+.hotel-banner-container {
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh - 80px); /* Adjust based on your header height */
+    background-color: #000;
+}
+
+.hotel-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.right-column {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.hotel-banner-content {
+    white-space: nowrap;
+    font-size: 24px;
+    color: #333;
+    animation: move-left 30s linear infinite;
 }
 
-.button-link {
+.hotel-image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 800px;
+    z-index: 10;
+}
+
+.hotel-image {
+    width: 100%;
+    height: auto;
     display: block;
-    padding: 10px 20px;
-    border: 2px solid black;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    width: 200px;
+}
+
+@keyframes move-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
 }
