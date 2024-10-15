@@ -24,6 +24,8 @@ h1, .footer-title {
 }
 
 .nav-link, .social-link {
+    font-size: 22px;  /* Increase font size */
+    padding: 10px 15px;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     padding-bottom: 2px;
@@ -266,7 +268,7 @@ main {
 .hotel-banner-container {
     position: relative;
     overflow: hidden;
-    height: calc(100vh - 400px);
+    height: calc(100vh - 500px);
     background-color: #1a1a1a;
     margin-top: 20px;
 }
@@ -297,12 +299,16 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
-    max-width: 600px;
+    max-width: 400px;
     z-index: 10;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hotel-image {
-    width: 100%;
+    width: 75%;
     height: auto;
     display: block;
     border-radius: 8px;
@@ -370,4 +376,16 @@ main {
     margin: 0 auto;
     font-size: 18px;
     line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .hotel-banner-container {
+        height: 50vh;
+    }
+    .hotel-banner-content {
+        font-size: 24px;
+    }
+    .hotel-image-container {
+        width: 90%;
+    }
 }
