@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/hotel.html</loc>
-    <lastmod>2024-10-18</lastmod>
+    <lastmod>2024-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -81,6 +81,12 @@
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/conversations/hotel/conversation_1_llama-3.1-70b-versatile_llama-3.1-70b-versatile.html</loc>
     <lastmod>2024-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://arnorelius.github.io/DeafDialogues/conversations/hotel/conversation_4_Hermes-3-Llama-3.1-70B_Meta-Llama-3.1-70B-Instruct.html</loc>
+    <lastmod>2024-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
