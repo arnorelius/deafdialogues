@@ -387,15 +387,37 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 100%; */
+    max-width: 100%;
 }
 
 .conversation-content {
     max-width: 100%;
     margin: 0 auto;
     font-size: 1.1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     padding: 0 0.5rem;
+    /* white-space: normal; */
+    /* text-align: justify; */
+    /* white-space: pre-wrap; */
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    /* white-space: pre; */
+    /* font-family: monospace; */
+}
+
+.conversation-content-cli {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding: 0 0.5rem;
+    /* white-space: normal; */
+    /* text-align: justify; */
+    white-space: pre-wrap;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    /* white-space: pre; */
+    font-family: monospace;
 }
 
 /* Media Queries for Responsive Design */
