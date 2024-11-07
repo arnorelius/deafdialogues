@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/index.html</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/backrooms.html</loc>
-    <lastmod>2024-11-04</lastmod>
+    <lastmod>2024-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -151,15 +151,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://arnorelius.github.io/DeafDialogues/conversations/backrooms/conversation_3_claude_3.5_sonnet_claude_3.5_sonnet.html</loc>
+    <lastmod>2024-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://arnorelius.github.io/DeafDialogues/conversations/backrooms/conversation_2_claude_3.5_sonnet_claude_3_opus.html</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://arnorelius.github.io/DeafDialogues/conversations/backrooms/conversation_1_claude_3_opus_claude_3_opus.html</loc>
     <lastmod>2024-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://arnorelius.github.io/DeafDialogues/conversations/backrooms/conversation_2_claude_3_opus_claude_3_opus.html</loc>
-    <lastmod>2024-11-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
 </urlset>
