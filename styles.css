@@ -193,6 +193,13 @@ main {
     transform: scale(1.05);
 }
 
+.image-container-conversation {
+    max-width: 50%;
+    height: auto;
+    /* box-shadow: 0 5px 20px rgba(0,0,0,0.5); */
+    border-radius: 8px;
+}
+
 .button {
     display: inline-block;
     padding: 0.75rem 1.5rem;

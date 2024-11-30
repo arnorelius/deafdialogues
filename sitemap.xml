@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/index.html</loc>
-    <lastmod>2024-11-04</lastmod>
+    <lastmod>2024-11-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/about.html</loc>
     <lastmod>2024-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arnorelius.github.io/DeafDialogues/thepainter.html</loc>
+    <lastmod>2024-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -116,13 +122,13 @@
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/conversations/hotel/conversation_8_claude_3_opus_Llama-3.1-405B.html</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/conversations/hotel/conversation_1_Llama-3.1-70B_Llama-3.1-70B.html</loc>
-    <lastmod>2024-10-25</lastmod>
+    <lastmod>2024-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -134,7 +140,7 @@
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/conversations/library/conversation_4_claude_3.5_sonnet_new_Llama-3.1-405B.html</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -152,21 +158,26 @@
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/conversations/backrooms/conversation_3_claude_3.5_sonnet_claude_3.5_sonnet.html</loc>
-    <lastmod>2024-11-07</lastmod>
+    <lastmod>2024-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/conversations/backrooms/conversation_2_claude_3.5_sonnet_claude_3_opus.html</loc>
-    <lastmod>2024-11-04</lastmod>
+    <lastmod>2024-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://arnorelius.github.io/DeafDialogues/conversations/backrooms/conversation_1_claude_3_opus_claude_3_opus.html</loc>
-    <lastmod>2024-11-04</lastmod>
+    <lastmod>2024-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://arnorelius.github.io/DeafDialogues/conversations/thepainter/consciousness_exploration_20241129_164852.html</loc>
+    <lastmod>2024-11-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
